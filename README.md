@@ -1,6 +1,20 @@
 # app_ros_car
 ROSラジコンカー
 
+## 開発環境
+
+- Ubuntu14.04 / 16.04
+- ROS indigo / kinetic
+- platformIO
+
+## フォルダ構成
+
+| フォルダ／ファイル名 | 内容 |
+| --- | --- |
+| sample/ | 主にサンプルコードを集めたROSパッケージ |
+| $ROS_PKG_NAME/src/ | ROS側のソースコード |
+| $ROS_PKG_NAME/ino/ | arduino側のソースコード |
+
 ## インストール方法
 1. catkinワークスペースの作成
 ``` bash
@@ -20,7 +34,12 @@ $ cd ~/catkin_ws/src
 $ git clone git@github.com:rotace/app_ros_car
 ```
 
-4. ビルド
+4. 依存パッケージのインストール
+``` bash
+$ rosdep install -r --from-path src --ignore-src
+```
+
+5. ビルド
 ``` bash
 $ cd ~/catkin_ws
 $ catkin_make
