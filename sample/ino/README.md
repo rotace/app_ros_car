@@ -12,8 +12,10 @@
 | --- | --- |
 | 01_led/ | platformIOをつかったLチカ*1 |
 | 02_ros_serial/ | ROSシリアルライブラリのサンプル*1 |
+| 03_motor_drive/ | モーターの速度制御*2 |
 
-*1 [ROS講座46 ROSでarduinoを使う](https://qiita.com/srs/items/53b1d0a9d574d9ca7752)
+*1 [ROS講座46「ROSでarduinoを使う」](https://qiita.com/srs/items/53b1d0a9d574d9ca7752)  
+*2 [メカト講座07「モータを速度制御する」](https://qiita.com/srs/items/3e69e392c9aefa1b4693)  
 
 ## インストール方法
 
