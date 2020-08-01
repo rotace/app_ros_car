@@ -11,7 +11,8 @@ ROSラジコンカー
 
 | フォルダ／ファイル名 | 内容 |
 | --- | --- |
-| sample/ | 主にサンプルコードを集めたROSパッケージ |
+| main/ | ROSラジコンカーのメインパッケージ |
+| sample/ | 主にサンプルコードを集めたパッケージ |
 | $ROS_PKG_NAME/src/ | ROS側のソースコード |
 | $ROS_PKG_NAME/ino/ | arduino側のソースコード |
 
@@ -38,6 +39,9 @@ $ git clone git@github.com:rotace/app_ros_car
 ``` bash
 $ rosdep install -r --from-path src --ignore-src
 ```
+
+※ただし、package.xmlで適切に依存関係を記述していない恐れがあるため、
+必要に応じ手動インストールが必要（例：sudo apt install ros-indigo-rosserial-arduino ）
 
 5. ビルド
 ``` bash

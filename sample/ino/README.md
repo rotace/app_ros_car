@@ -2,8 +2,8 @@
 
 ## 開発環境
 
-- Ubuntu14.04 / 16.04
-- ROS indigo / kinetic
+- Ubuntu14.04
+- ROS indigo
 - platformIO
 
 ## フォルダ構成
@@ -38,7 +38,7 @@ $ rosrun rosserial_arduino make_libraries.py .
 ```
 $ roscore
 ```
-4. 別のターミナルを開き、以下のコマンドでarduinoと接続します。_port:には、接続しているUSBのフルパスを設定ください。
+4. 別のターミナルを開き、以下のコマンドでarduinoのノードを作成します。_port:には、接続しているUSBのフルパスを設定ください。
 ```
 $ rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0
 ```
@@ -58,7 +58,7 @@ $ rostopic pub -1 /led std_msgs/Bool -- "data: true"
 ```
 $ roscore
 ```
-4. 別のターミナルを開き、以下のコマンドでarduinoと接続します。_port:には、接続しているUSBのフルパスを設定ください。
+4. 別のターミナルを開き、以下のコマンドでarduinoのノードを作成します。_port:には、接続しているUSBのフルパスを設定ください。
 ```
 $ rosrun rosserial_python serial_node.py _port:=/dev/ttyUSB0
 ```
