@@ -51,8 +51,9 @@ $ rostopic echo /joy
 ```
 
 ### メインルーチンの起動
-
-ランチファイルから一括起動します。
+1. PS3コントローラをペアリングします。
+2. ラジコンカーのArduinoとPCをUSB接続します。
+3. ランチファイルから一括起動します。
 ```
 $ roslaunch main main.launch
 ```
