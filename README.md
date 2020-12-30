@@ -53,4 +53,4 @@ $ catkin_make
 * [公式「ROSチュートリアル」](http://wiki.ros.org/ja/ROS/Tutorials)
 * [Qiita「ROS講座」](https://qiita.com/srs/items/5f44440afea0eb616b4a)（[Git](https://github.com/project-srs/ros_lecture)）
 * [「ROSで始めるロボティクス」](http://bril-tech.blogspot.com/2016/10/ros1-robot-operating-system.html)
-* [移動ロボットのモータ制御と走行制御](https://at-wat.github.io/ROS-quick-start-up/files/Vehicle_and_Motion_Control.pdf)
+* [「移動ロボットのモータ制御と走行制御」](https://at-wat.github.io/ROS-quick-start-up/files/Vehicle_and_Motion_Control.pdf)
